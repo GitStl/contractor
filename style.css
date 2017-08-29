@@ -1,0 +1,48 @@
+/*
+ Theme Name:   Mobile Home Masters
+ Theme URI:    https://www.famethemes.com/themes/onepress/
+ Description:  Mobile Home Child
+ Author:       Tom Beckerle
+ Author URI:   http://famethemes.com
+ Template:     onepress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  onepress-child
+*/
+
+@import url("../onepress/style.css");
+
+.number-wrap a.phone {
+    color: red;
+    font-size: 27px;
+    text-decoration: none;
+}
+.number-wrap p.city {
+    margin: 5px 0 4px 0;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.number-wrap p.number {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+.number-wrap {
+    margin: 1% 1% 1% 1%;
+    float: right;
+}
+
+@media screen and (max-width: 760px) {
+    .number-wrap {
+        margin:1px 5% 0 5%;
+        width:90%;
+        float:none;
+        clear:both;
+        position:relative;
+        bottom:2px;
+    }
+}
